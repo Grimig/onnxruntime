@@ -153,7 +153,7 @@ std::vector<SupportedOp> supported_op_mode = {
     {"PRelu", V_2020_4, {"All"}},
     {"QuantizeLinear", V_2021_4, {"CPU", "GPU"}},
     {"Range", V_2021_2, {"MYRIAD"}},
-    {"Range", V_2022_1, {"CPU"}},
+    {"Range", V_2022_1, {"All"}},
     {"Reciprocal", V_2020_4, {"All"}},
     {"ReduceL1", V_2022_1, {"CPU", "GPU"}},
     {"ReduceL2", V_2022_1, {"CPU", "GPU"}},
